@@ -15,7 +15,7 @@ const Relation = ({
     <div onClick={() => console.log(name)}>
       <li className="list-group-item">
         <img
-          src={profileImageUrl || DefaultProfileImg}
+          src={profileImageUrl && DefaultProfileImg}
           alt={name}
           height="100"
           width="100"

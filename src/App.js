@@ -1,13 +1,12 @@
-import React, { useState } from "react";
-import "./App.css";
-import Navbar from "./components/Navbar";
-import Homepage from "./components/Homepage";
+import React, { useState } from 'react';
+import './App.css';
+import Navbar from './components/Navbar';
+import Homepage from './components/Homepage';
 
 const fakeUser = {
-  username: "Audrey Hepburn",
+  username: 'Ibrahima Sarr',
   isAuthenticated: true,
-  profileImageUrl:
-    "https://avatars.githubusercontent.com/u/91768858?s=400&u=696bf2721c863065c28eaac8cf6a0c882b8f6881&v=4",
+  profileImageUrl: '../images/default-profile-image.png',
 };
 
 function App() {
