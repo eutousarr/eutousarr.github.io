@@ -8,7 +8,7 @@ const Homepage = ({ currentUser }) => {
         <h1>Hi there</h1>
         <h4>New to Family Tree?</h4>
         <a href="/signup" className="btn btn-primary">
-          Sign up here
+          Créer un compte
         </a>
       </div>
     );
