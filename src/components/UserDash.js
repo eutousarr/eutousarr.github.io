@@ -10,7 +10,7 @@ const UserDash = ({ currentUser }) => {
   useEffect(() => {
     const getFamily = async () => {
       const { data } = await axios.get(
-        "https://my-json-server.typicode.com/eutousarr/api/profile"
+        "https://my-json-server.typicode.com/eutousarr/api/family"
       );
       setFamily(data);
     };
